@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Barlow+Condensed:wght@100&family=Playfair:wght@300;400&family=Roboto+Slab:wght@100;200;300;400&family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500&display=swap');
+
+/* font-family: 'Abel', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Playfair', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Poppins', sans-serif; */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+.logo {
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    pointer-events: none;
+    /* transition: all 0.5s ease-in; */
+}
+
+.hover {
+    transition: all .5s ease-in;
+}
+
+.h-100 {
+    min-height: 90vh;
+}
+
+.hover:hover {
+    color: #FCFCFC;
+    text-decoration: underline;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 1rem;
+    background-color: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+    display: flex;
+    width: max-content;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    width: 320px;
+    border: none;
+    border-radius: 1rem;
+    padding: 15px 24px;
+    background-color: inherit;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    background-color: inherit;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 50%;
+    font-weight: bold;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.equalBtn {
+    background-color: #fb7c14;
+}
+
+.equalBtn:hover {
+    background-color: rgba(113, 115, 119, 0.5);
+}
+
+.operators {
+    color: #6dee0a;
+}
+
+.operators:hover {
+    background-color: #3a4452;
+}
+
+button:hover {
+    background-color: #fb7c14;
+}
